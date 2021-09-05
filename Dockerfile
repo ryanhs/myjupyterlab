@@ -20,3 +20,6 @@ RUN pip install pymongo
 RUN pip install ssh-pymongo
 RUN conda install -c conda-forge ipyleaflet
 RUN pip install ilua
+
+# add tmp dir
+RUN mkdir /home/jovyan/tmp
